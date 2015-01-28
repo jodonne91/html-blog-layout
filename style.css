@@ -28,11 +28,12 @@
 }
 
 .subscribe {
+	width: 250px;
+	height: 140px;
 	position: fixed;
-	float:right;
 	border: 2px solid gray;
 	bottom: 50px;
-	right: 50px;
+	right: 150px;
 }
 
 .subscribeP {
@@ -40,5 +41,5 @@
 }
 
 .tinyImg {
-	position: inline-block;
+	display: inline-block;
 }
