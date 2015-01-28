@@ -7,11 +7,13 @@
 	border: 3px solid black;
 }
 .search {
-	width: 100px;
-	margin-left: 5%;
+	width: 15%;
+	margin-left: 10%;
 	color: gray;
 	display: inline-block;
 	position: relative;
+	vertical-align: top;
+	border: 2px solid black;
 }
 
 .img1 {
@@ -19,7 +21,24 @@
 }
 
 .mainColumn {
-	width: 25%;
+	width: 50%;
 	margin-left: 0 auto;
 	display: inline-block;
+	border: 2px solid blue;
+}
+
+.subscribe {
+	position: fixed;
+	float:right;
+	border: 2px solid gray;
+	bottom: 50px;
+	right: 50px;
+}
+
+.subscribeP {
+	display: inline-block;
+}
+
+.tinyImg {
+	position: inline-block;
 }
