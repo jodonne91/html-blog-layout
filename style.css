@@ -1,3 +1,7 @@
+* {
+	font-family: Arial;
+}
+
 .pretty {
 	width: 100%;
 }
@@ -17,7 +21,9 @@
 }
 .search {
 	width: 15%;
-	margin-left: 10%;
+	margin-left: 8%;
+	margin-top: 45px;
+	margin-right: 10px;
 	color: gray;
 	display: inline-block;
 	position: relative;
@@ -31,14 +37,16 @@
 
 .mainColumn {
 	width: 50%;
+	margin-top: 25px;
 	margin-left: 0 auto;
 	display: inline-block;
 	border: 2px solid blue;
 }
 
 .subscribe {
+	background-color: white;
 	width: 250px;
-	height: 140px;
+	height: 120px;
 	position: fixed;
 	border: 2px solid gray;
 	bottom: 50px;
@@ -47,6 +55,7 @@
 
 .subscribeP {
 	display: inline-block;
+	margin-top: 5px;
 
 }
 
